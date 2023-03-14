@@ -5,7 +5,6 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET","POST"])
 def marks():
-    print("tututut")
     if request.method == "POST":
         print("dasdsa")
         hrs = request.form["hrs"]
